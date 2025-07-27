@@ -51,8 +51,10 @@ dotenv (API key management)
 
 Pillow (image handling)
 
+
 MealApp/
 │
+
 ├── static/                # CSS, JS, images
 ├── templates/             # HTML templates
 ├── food_classifier/       # CNN model, image preprocessing
@@ -60,15 +62,16 @@ MealApp/
 │   ├── speech_to_text.py  # Voice input processing
 │   ├── spacy.py           # Goal extraction via spaCy
 │
+
 ├── mealapp/
 │   ├── views.py           # Core logic for each feature
 │   ├── models.py          # User and image models
 │   ├── urls.py            # Routing
 │
+
 ├── db.sqlite3             # Database
 ├── manage.py
 └── requirements.txt
-
 
 # Environment Setup
 1. Clone the Repo
@@ -106,22 +109,29 @@ Achieves ~85% accuracy
 Uses ResNet-based architecture (custom or transfer learning)
 
 # Dependencies
-bash
-Copy
-Edit
 Django
+
 tensorflow
+
 opencv-python
+
 Pillow
+
 SpeechRecognition
+
 gTTS
+
 pydub
+
 python-dotenv
+
 spacy
+
 cohere
+
 openai
 
-check this out-> <img width="554" height="798" alt="Screenshot 2025-07-27 213336" src="https://github.com/user-attachments/assets/d1485f90-a3c5-40e2-af81-e6ed67284eb7" />
+<img width="554" height="798" alt="Screenshot 2025-07-27 213336" src="https://github.com/user-attachments/assets/d1485f90-a3c5-40e2-af81-e6ed67284eb7" />
 <img width="544" height="809" alt="Screenshot 2025-07-27 213724" src="https://github.com/user-attachments/assets/886407e4-43c3-440a-8071-85a24644c800" />
 <img width="552" height="791" alt="Screenshot 2025-07-27 213938" src="https://github.com/user-attachments/assets/ce6a0f29-3b7f-4844-8668-8dce1ee4b4e8" />
 
